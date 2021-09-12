@@ -1,6 +1,6 @@
 {
   "name": "mylerna",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "> TODO: description",
   "keywords": [
     "mylerna"
@@ -23,9 +23,9 @@
     "mylerna": "cli.js"
   },
   "dependencies": {
-    "@mylerna/cli": "^0.0.0",
-    "@mylerna/create": "^0.0.0",
-    "@mylerna/init": "^0.0.0",
+    "@mylerna/cli": "^0.1.0",
+    "@mylerna/create": "^0.1.0",
+    "@mylerna/init": "^0.1.0",
     "fs-extra": "^10.0.0",
     "yargs": "^17.1.1"
   }
