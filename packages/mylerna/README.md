@@ -86,4 +86,15 @@ npm login
 ![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/93dfcb5755fb4d7da05a170091a35c62~tplv-k3u1fbpfcp-watermark.image)
 
 发布成功：
-![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9d6e3f6a5ec24ac8b0f04f1de14cc55a~tplv-k3u1fbpfcp-watermark.image)
+```js
+Successfully published:
+ - @frontendplayer/cli@0.1.3
+ - @frontendplayer/create@0.1.3
+ - @frontendplayer/init@0.1.3
+ - @frontendplayer/mylerna@0.1.3
+lerna success published 4 packages
+```
+![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fddb97e77a6a43038b998471cda5dd98~tplv-k3u1fbpfcp-watermark.image)
+
+查看 npm 公服：
+![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9bf0e89fa0e54cfd85b9fb7282601f31~tplv-k3u1fbpfcp-watermark.image)
