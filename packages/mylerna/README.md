@@ -67,7 +67,8 @@ npm root -g
 
 ### `publishConfig` 修改为公服
 ```
-  "publishConfig": {
+   "publishConfig": {
+    "access": "public",
     "registry": "https://registry.npmjs.org"
   },
 ```
