@@ -43,7 +43,7 @@ Lerna 2.x 是推荐的开始版本[lerna.org](https://lerna.js.org/)
 lerna add yargs 
 // 此时它会安装到所有的packages下面的项目中；
 
-lerna add yargs  packages/react-playground
+lerna add yargs  packages/mylerna
 // 将依赖包安装到packages下的指定项目中；
 
 npm i yargs
