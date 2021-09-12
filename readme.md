@@ -1,3 +1,4 @@
+
 # lerna playground 
 [项目演示地址](https://github.com/GeekQiaQia/lerna-playground.git)
 ## lerna 起步
@@ -7,7 +8,8 @@ Lerna 2.x 是推荐的开始版本[lerna.org](https://lerna.js.org/)
 
 接下来我们将创建一个新的 git 存储库：
 
-    git init lerna-repo && cd lerna-repo
+    git init lerna-repo
+    cd lerna-repo
 创建一个新的 lerna 存储库或将现有存储库升级到 Lerna 的当前版本。
 
     lerna init
@@ -21,10 +23,6 @@ Lerna 2.x 是推荐的开始版本[lerna.org](https://lerna.js.org/)
     lerna success Initialized Lerna files
 ```
 
-选项
-    
-    --independent/ -i– //使用独立版本控制模式。
-
 
 ### 创建包 package
 
@@ -32,9 +30,9 @@ Lerna 2.x 是推荐的开始版本[lerna.org](https://lerna.js.org/)
    默认已经帮我们生成以下文件：
      
     __test__       //单元测试
-    lib           //
-    package.json //
-    README.MD   //
+    lib           //入口lib主文件
+    package.json // 配置文件
+    README.MD   // readme
 ### 安装依赖    
 >以安装依赖包 `yargs` 举例三种情况下的依赖安装；
 ```
@@ -109,7 +107,12 @@ npm root -g
 对应目录多出一个`@frontendplayer`的链接包
 
 ![image.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/83846274bce84aabad1a1bdac391f63b~tplv-k3u1fbpfcp-watermark.image?)
-## `publish`发布
+## `publish` 发布上线
+
+```
+lerna version // 查看版本
+lerna publish // 发布 
+```
 首次发布需要将项目初始提交到git与远程仓库建立连接;
 
 以下以 npm 公服为列：
@@ -156,7 +159,8 @@ lerna success published 4 packages
 ```
 ![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fddb97e77a6a43038b998471cda5dd98~tplv-k3u1fbpfcp-watermark.image)
 
-查看 npm 公服：
+查看[ npm 公服 frontendplayer](<https://www.npmjs.com/settings/frontendplayer/packages>)：
+
 ![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9bf0e89fa0e54cfd85b9fb7282601f31~tplv-k3u1fbpfcp-watermark.image)
 ## 项目规范
 通过`eslint`、`prettier`、`editorconfig`等工具规范代码风格，保证代码质量；
@@ -267,11 +271,6 @@ trim_trailing_whitespace=false
 ## 规范总结
 开发过程中通过统一的代码风格和规范，在不同的编辑器环境中，保持统一的风格，有利于代码的维护和代码质量的保证；
 
-## 发布上线
-```
-lerna version // 查看版本
-lerna publish // 发布 
-```
 ## 参考
   ### 项目初始化
   | 命令               |       说明                        | 
