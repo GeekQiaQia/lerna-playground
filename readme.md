@@ -1,6 +1,10 @@
 
 # lerna playground 
-[项目演示地址](https://github.com/GeekQiaQia/lerna-playground.git)
+[本例项目演示地址](https://github.com/GeekQiaQia/lerna-playground.git)
+
+[lerna官网](<https://www.lernajs.cn/>)
+
+[lernaGithub](<https://github.com/lerna/lerna>)
 ## lerna 起步
 Lerna 2.x 是推荐的开始版本[lerna.org](https://lerna.js.org/)
 
@@ -271,7 +275,7 @@ trim_trailing_whitespace=false
 ## 规范总结
 开发过程中通过统一的代码风格和规范，在不同的编辑器环境中，保持统一的风格，有利于代码的维护和代码质量的保证；
 
-## 参考
+## 参考命令
   ### 项目初始化
   | 命令               |       说明                        | 
 | --------------------- | ------------------------------- | 
