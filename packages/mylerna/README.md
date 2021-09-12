@@ -53,3 +53,8 @@ npm root -g
 
 ```
 对应目录多出一个**mylerna**的链接包
+
+## publish发布
+首先需要将项目初始提交到git与远程仓库建立连接;
+若无修改或者提交则会提示
+![image.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/efe63490b83b4f7ca0f5a2be0b255a24~tplv-k3u1fbpfcp-watermark.image)

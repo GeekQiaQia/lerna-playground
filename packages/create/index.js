@@ -9,7 +9,7 @@ class CreateCommand {
   }
   async execute() {
     // name=xxx  registry=私服地址
-    const { name, registry } = this.options
+    const { name } = this.options
     const targetDir = path.join(this.rootPath, `packages/${name}`)
     this.libDir = path.join(targetDir, `lib`)
     this.testDir = path.join(targetDir, `__test__`)
