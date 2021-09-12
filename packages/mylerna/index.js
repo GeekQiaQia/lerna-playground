@@ -1,7 +1,7 @@
 // 拿到cli依赖
-const cli = require('@mylerna/cli')
-const initCmd = require('@mylerna/init/command')
-const createCmd = require('@mylerna/create/command')
+const cli = require('@frontendplayer/cli')
+const initCmd = require('@frontendplayer/init/command')
+const createCmd = require('@frontendplayer/create/command')
 
 function main(argv) {
   // cli返回的是 yargs的实例

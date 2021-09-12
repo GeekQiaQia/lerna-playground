@@ -26,9 +26,9 @@
     "mylerna": "cli.js"
   },
   "dependencies": {
-    "@mylerna/cli": "^0.1.1",
-    "@mylerna/create": "^0.1.1",
-    "@mylerna/init": "^0.1.1",
+    "@frontendplayer/cli": "^0.1.1",
+    "@frontendplayer/create": "^0.1.1",
+    "@frontendplayer/init": "^0.1.1",
     "fs-extra": "^10.0.0",
     "yargs": "^17.1.1"
   }
