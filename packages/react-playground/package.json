@@ -1,0 +1,25 @@
+{
+  "name": "react-playground",
+  "version": "0.0.0",
+  "description": "react playground",
+  "keywords": [
+    "react"
+  ],
+  "author": "xiyang.bai <xiyang.bai@zhangmen.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/react-playground.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "fs-extra": "^10.0.0"
+  }
+}
