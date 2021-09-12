@@ -147,9 +147,30 @@ npm login
 ![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6f3e0c1effef412d84f7ab383e5daa0a~tplv-k3u1fbpfcp-watermark.image)
 
 ### `version`选择版本
-发布时会提示让你选择**Patch Minor Major**等版本类型的选择：
+Lerna 项目有两种模式：Fixed/Locked mode (default) | Independent mode，他们对应包版本号管理的两种方式。
 
-演示项目为固定模式，此时packages下的所有包都统一升级为:`^0.1.0`,如下所示：
+#### Fixed/Locked mode (default)
+
+这模式下所有包的版本同步一个主版本号，即 `lerna.json` 里的 `version`
+
+```
+{
+  "version": "0.0.0"
+}
+复制代码
+```
+
+#### Independent mode
+
+该模式下，每个包可以独立维护自己的版本号，如果要指定独立运行模式，在 lerna.json 里指定 version 配置如下：
+
+```
+{
+  "version": "independent"
+}
+```
+
+演示项目为固定模式，此时packages下的所有包都统一升级为:`^0.1.3`,如下所示：
 ![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/93dfcb5755fb4d7da05a170091a35c62~tplv-k3u1fbpfcp-watermark.image)
 
 发布成功：
