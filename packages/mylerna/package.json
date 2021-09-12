@@ -1,5 +1,5 @@
 {
-  "name": "mylerna",
+  "name": "@frontendplayer/mylerna",
   "version": "0.1.2",
   "description": "> TODO: description",
   "keywords": [
@@ -17,6 +17,7 @@
     "lib"
   ],
   "publishConfig": {
+    "access": "public",
     "registry": "https://registry.npmjs.org"
   },
   "scripts": {
@@ -31,5 +32,6 @@
     "@frontendplayer/init": "^0.1.2",
     "fs-extra": "^10.0.0",
     "yargs": "^17.1.1"
-  }
+  },
+  "gitHead": "954aba9f7fa781276aa5e1f9790a81291286944d"
 }
